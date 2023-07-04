@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --abu : #A9A9A9;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card{
+  background-color: 	#FAEBD7;
+  color: black;
+  border-radius: 30px;
+  padding: 80px;
+  width: 400px;
+}
+
+.card h1 {
+  font-size: 25px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.profile .avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: 1px solid var(--abu);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  display: block;
+}
+
+.card .btn_action {
+  display: flex;
+  padding: 15px 25px;
+  cursor: pointer;
+  /* text-align: center; */
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #F8F8FF;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px #999;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.card .btn_action span{
+  margin-left: 16px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card .btn_action:hover {
+  background-color: #F8F8FF
+}
+
+.card .btn_action:active {
+  background-color: #F8F8FF;
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
