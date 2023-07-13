@@ -1,10 +1,12 @@
-*{
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 :root{
   --abu : #A9A9A9;
+  --card : #FAEBD7;
 }
 
 body{
@@ -18,9 +20,9 @@ body{
 .card{
   background-color: 	#FAEBD7;
   color: black;
-  border-radius: 30px;
-  padding: 80px;
-  width: 400px;
+  border-radius: 50px;
+  padding: 70px;
+  width: 500px;
 }
 
 .card h1 {
@@ -46,11 +48,10 @@ body{
 .profile .avatar{
   width: 150px;
   height: 150px;
-  border-radius: 100px;
-  border: 1px solid var(--abu);
+  border-radius: 100%;
+  border: 1px solid var(--card);
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
   display: block;
 }
 
@@ -59,29 +60,42 @@ body{
   padding: 15px 25px;
   cursor: pointer;
   /* text-align: center; */
-  text-decoration: none;
+  /* text-decoration: none;
   outline: none;
   color: black;
   background-color: #F8F8FF;
   border: none;
-  border-radius: 12px;
-  box-shadow: 0 5px #999;
+  border-radius: 50px;
+  box-shadow: 0 4px #999; */
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center;
+  border: 2px solid var(--abu);
+} */
+
+/* .mt-16 .n-left{
+  margin-left: 2px;
 }
 
-.card .btn_action span{
-  margin-left: 16px;
-  justify-content: center;
-  text-align: center;
+.mt-16 .n-right span {
+  text-align: right;
+  margin-left: 100px;
+  font-weight: 500;
 }
+
 
 .card .btn_action:hover {
-  background-color: #F8F8FF
+  background-color: #FAEBD7
 }
 
 .card .btn_action:active {
   background-color: #F8F8FF;
   box-shadow: 0 4px #666;
   transform: translateY(4px);
-}
+} */ 
+
+
+
+/* *{
+  border: 1px solid red;
+} */
+
