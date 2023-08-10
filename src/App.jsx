@@ -93,8 +93,7 @@ const App=()=>{
 
                 <div className="flex flex-col gap-5 ">
                       <div className = "flex flex-row group cursor-pointer justify-between content-center border-2 rounded-xl   w-full  dark:hover:shadow-costum2 shadow-costum dark:hover:bg-slate-800  dark:hover:text-white  hover:translate-x-1 hover:translate-y-1 hover:shadow-costum shadow-abu dark:shadow-slate-600 dark:hover:shadow-slate-300 transition-all  hover:bg-beige  border-abu bg-white">
-                          <div onClick={()=> setShowModal(true)}
-                              className="flex flex-row justify-between items-center w-full  p-2 ">
+                          <div className="flex flex-row justify-between items-center w-full  p-2 ">
                             <div className="flex flex-row justify-between items-center w-full ">
                               <img className= "h-8 w-8 ml-4 inline-block" src={Profile} alt="" />
                               <span className="font-mono text-xl  text-center mx-auto" >Profile</span>
@@ -102,8 +101,7 @@ const App=()=>{
                           </div>
                             
                           <div className="flex justify-center items-center p-2">
-                              <div className= "flex h-8 w-8 mr-4  rounded-full group hover:bg-gray dark:hover:bg-slate-600 justify-center items-center"
-                                      onClick={()=> setShowModal(true)}>
+                              <div className= "flex h-8 w-8 mr-4  rounded-full group hover:bg-gray dark:hover:bg-slate-600 justify-center items-center">
                                   <svg xmlns="http://www.w3.org/2000/svg" 
                                       fill="none" viewBox="0 0 24 24" 
                                       stroke-width="1.5" stroke="currentColor" 
